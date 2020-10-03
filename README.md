@@ -59,35 +59,61 @@ Users may follow the steps below to manually install PyMOSO from any version of 
 
 ## Results
 
-Figure 1 in the paper shows the results of the multiplication test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
+### Figure 4
+Figure 4 contains the resulting solution file of solving MyProblem using R-PERLE. 
 
-![Figure 1](results/mult-test.png)
+```
+(2,)
+(0,)
+(1,)
+```
 
-Figure 2 in the paper shows the results of the sum test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
+### Figure 6
+Figure 6 contains the first resulting solution file of testing MyProblem using R-PERLE. 
 
-![Figure 1](results/sum-test.png)
+```
+{(3,)}
+{(2,), (1,)}
+{(0,), (1,)}
+{(2,), (0,), (1,)}
+{(2,), (0,), (1,)}
+{(2,), (1,)}
+{(0,), (1,)}
+{(2,), (0,), (1,)}
+{(2,), (0,), (1,)}
+{(2,), (0,), (1,)}
+```
+
+### Figure 7
+Figure 7 contains the first resulting metric file of testing MyProblem using R-PERLE. 
+
+```
+(0, 0, 9.486832980505138)
+(1, 15, 3.1622776601683795)
+(2, 33, 3.1622776601683795)
+(3, 51, 0.0)
+(4, 69, 0.0)
+(5, 93, 3.1622776601683795)
+(6, 117, 3.1622776601683795)
+(7, 141, 0.0)
+(8, 171, 0.0)
+(9, 201, 0.0)
+```
 
 ## Replicating
 
-To replicate the results in [Figure 1](results/mult-test), do either
+### Figure 4
+To replicate the output file in Figure 4, install PyMOSO and invoke the following command. 
 
 ```
-make mult-test
+pymoso solve --budget=10000 --simpar=4 myproblem.py RPERLE 97
 ```
-or
-```
-python test.py mult
-```
-To replicate the results in [Figure 2](results/sum-test), do either
+
+### Figure 6 and Figure 7
+To replicate the output files in Figures 6 and 7, install PyMOSO and invoke the following command. 
 
 ```
-make sum-test
-```
-or
-```
-python test.py sum
+pymoso --isp=16 --proc=4 --metric testsolve mytester.py RPERLE
 ```
 
 ## Ongoing Development
