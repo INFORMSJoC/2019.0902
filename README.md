@@ -2,6 +2,22 @@
 
 # PyMOSO
 
+
+This archive is distributed in association with the [INFORMS Journal on
+Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
+
+The software and data in this repository are a snapshot of the software and data
+that were used in the research reported on in the paper 
+[PyMOSO: Software for Multi-Objective Simulation Optimization with R-PERLE and R-MinRLE](https://doi.org/10.1287/ijoc.2019.0902) by K. Cooper and S. Hunter. 
+The snapshot is based on 
+[this SHA](https://github.com/pymoso/PyMOSO/commit/a38e27dfbf425955d2e01fac014bfe12e383543b) 
+in the development repository. 
+
+**Important: This code is being developed on an on-going basis at 
+https://github.com/pymoso/PyMOSO. Please go there if you would like to
+get a more recent version or would like support**
+
+
 PyMOSO is software for solving multi-objective simulation optimization (MOSO) problems and for creating, comparing, and testing MOSO algorithms.
 
 ## Cite
