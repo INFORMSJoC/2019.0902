@@ -1,10 +1,8 @@
 [![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
 # PyMOSO
-
-
 This archive is distributed in association with the [INFORMS Journal on
-Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
+Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE.txt).
 
 The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper 
@@ -18,7 +16,6 @@ https://github.com/pymoso/PyMOSO. Please go there if you would like to
 get a more recent version or would like support**
 
 ## Cite
-
 To cite this software, please cite the [paper](https://doi.org/10.1287/ijoc.2019.0902) using its DOI and the software itself, using the following DOI.
 
 [![DOI](https://zenodo.org/badge/285853815.svg)](https://zenodo.org/badge/latestdoi/285853815)
@@ -51,7 +48,6 @@ We recommend reading these papers to understand the algorithms, what they return
 
 
 ## Building
-
 Since PyMOSO is programmed in Python, every PyMOSO user must first install Python, which can be downloaded from https://www.python.org/downloads/. PyMOSO is compatible with Python versions 3.6 and higher. In the remainder of this section, we assume an appropriate Python version is installed. We discuss two different methods to install PyMOSO: first, directly from the source code using git; and second, manually installing PyMOSO from source code.
 
 The following instructions build and install the code from this repository. See [Installation](#installation) for installing the authors' latest version. 
