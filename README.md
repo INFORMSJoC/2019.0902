@@ -23,7 +23,7 @@ To cite this software, please cite the [paper](https://doi.org/10.1287/ijoc.2019
 Below is the BibTex for citing this version of the code.
 
 ```
-@article{VBOHCA,
+@article{PyMOSO,
   author =        {K. Cooper and S. Hunter},
   publisher =     {INFORMS Journal on Computing},
   title =         {{PyMOSO} Version v1.0},
