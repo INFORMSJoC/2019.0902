@@ -17,9 +17,6 @@ in the development repository.
 https://github.com/pymoso/PyMOSO. Please go there if you would like to
 get a more recent version or would like support**
 
-
-PyMOSO is software for solving multi-objective simulation optimization (MOSO) problems and for creating, comparing, and testing MOSO algorithms.
-
 ## Cite
 
 To cite this software, please cite the [paper](https://doi.org/10.1287/ijoc.2019.0902) using its DOI and the software itself, using the following DOI.
@@ -40,6 +37,7 @@ Below is the BibTex for citing this version of the code.
 ```
 
 ## Description
+PyMOSO is software for solving multi-objective simulation optimization (MOSO) problems and for creating, comparing, and testing MOSO algorithms.
 
 The initial release of PyMOSO contains solvers that implement four total algorithms, in alphabetical order: R-MinRLE, R-PE, R-PERLE, and R-SPLINE.  The algorithms R-MinRLE, R-PE, R-PERLE were introduced in the following paper:
 
