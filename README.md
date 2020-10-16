@@ -18,7 +18,7 @@ get a more recent version or would like support**
 ## Cite
 To cite this software, please cite the [paper](https://doi.org/10.1287/ijoc.2019.0902) using its DOI and the software itself, using the following DOI.
 
-To be added
+[![DOI](https://zenodo.org/badge/291306388.svg)](https://zenodo.org/badge/latestdoi/291306388)
 
 Below is the BibTex for citing this version of the code.
 
@@ -28,7 +28,7 @@ Below is the BibTex for citing this version of the code.
   publisher =     {INFORMS Journal on Computing},
   title =         {{PyMOSO} Version v2019.0902},
   year =          {2019},
-  doi =           {},
+  doi =           {10.5281/zenodo.4095477},
   url =           {https://github.com/INFORMSJoC/2019.0902},
 }  
 ```
