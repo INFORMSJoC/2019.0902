@@ -18,7 +18,7 @@ get a more recent version or would like support**
 ## Cite
 To cite this software, please cite the [paper](https://doi.org/10.1287/ijoc.2019.0902) using its DOI and the software itself, using the following DOI.
 
-[![DOI](https://zenodo.org/badge/285853815.svg)](https://zenodo.org/badge/latestdoi/285853815)
+To be added
 
 Below is the BibTex for citing this version of the code.
 
@@ -26,9 +26,9 @@ Below is the BibTex for citing this version of the code.
 @article{PyMOSO,
   author =        {K. Cooper and S. Hunter},
   publisher =     {INFORMS Journal on Computing},
-  title =         {{PyMOSO} Version v1.0},
+  title =         {{PyMOSO} Version v2019.0902},
   year =          {2019},
-  doi =           {10.5281/zenodo.3977566},
+  doi =           {},
   url =           {https://github.com/INFORMSJoC/2019.0902},
 }  
 ```
