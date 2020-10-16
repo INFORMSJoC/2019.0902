@@ -6,7 +6,7 @@ Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](
 
 The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper 
-[PyMOSO: Software for Multi-Objective Simulation Optimization with R-PERLE and R-MinRLE](https://doi.org/10.1287/ijoc.2019.0902) by K. Cooper and S. Hunter. 
+[PyMOSO: Software for Multi-Objective Simulation Optimization with R-PERLE and R-MinRLE](https://doi.org/10.1287/ijoc.2019.0902) by K. Cooper and S. R. Hunter. 
 The snapshot is based on 
 [this SHA](https://github.com/pymoso/PyMOSO/commit/a38e27dfbf425955d2e01fac014bfe12e383543b) 
 in the development repository. 
@@ -24,7 +24,7 @@ Below is the BibTex for citing this version of the code.
 
 ```
 @article{PyMOSO,
-  author =        {K. Cooper and S. Hunter},
+  author =        {K. Cooper and S. R. Hunter},
   publisher =     {INFORMS Journal on Computing},
   title =         {{PyMOSO} Version v2019.0902},
   year =          {2019},
