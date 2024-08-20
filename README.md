@@ -18,7 +18,7 @@ get a more recent version or would like support**
 ## Cite
 To cite this software, please cite the [paper](https://doi.org/10.1287/ijoc.2019.0902) using its DOI and the software itself, using the following DOI.
 
-[![DOI](https://doi.org/10.1287/ijoc.2023.0155.cd)](https://doi.org/10.1287/ijoc.2023.0155.cd)
+[DOI: (https://doi.org/10.1287/ijoc.2019.0902.cd)](https://doi.org/10.1287/ijoc.2019.0902.cd)
 
 Below is the BibTex for citing this version of the code.
 
